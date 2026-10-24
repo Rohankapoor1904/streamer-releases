@@ -23,15 +23,25 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.0.0)
+## 📥 Downloads (Latest Stable v1.2.42)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.0.0/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.0.0/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.0.0/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.42/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.42/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.42/app-universal-release.apk) |
+
+---
+
+## 🆕 What's New in v1.2.42
+
+- 🧩 **Curated Default Addons** — fresh installs ship with exactly MediaFusion, Comet, Peerflix & EasyNews (old preset clutter auto-cleaned on update; your own addons are kept).
+- ⚡ **Auto Stream Resolution** — streams start loading automatically from the top matched providers, no tapping needed.
+- 🔁 **Alt-Post Retry** — dead provider pages auto-fall-back to the next best matched post, dramatically fewer "No Streams Found" errors.
+- 🗣️ **Language Labels** — stream cards show readable audio languages (English • Hindi • Multi Audio…).
+- ✨ **UI Polish** — soft card entrance animations, snappier screen transitions, inline tap-to-retry states.
 
 ---
 
