@@ -23,25 +23,26 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.49)
+## 📥 Downloads (Latest Stable v1.2.50)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.49/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.49/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.49/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.50/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.50/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.50/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.49
+## 🆕 What's New in v1.2.50
 
-- ⏩ **Kinetic 10-Second Transport Buttons** — center Rewind & Forward buttons feature mechanical spring bounce, micro-tilt rotation (-24° / +24°), and tactile haptics.
+- 🛠️ **Scrubber Timeline Glitch Resolved** — fixed the distorted vertical box artifact appearing when dragging the player timestamp.
+- ⚡ **Instant Startup Audio/Video Sync** — eliminated artificial 2.8s showcase delay (MIN_OVERLAY_DISPLAY_MS=0) and streamlined fade out so media frames and voice begin simultaneously.
+- ⏩ **Kinetic 10-Second Transport Buttons** — mechanical spring bounce, micro-tilt rotation (-24° / +24°), and tactile haptics.
 - 🌊 **Curved Double-Tap Seek Wave** — YouTube/Netflix style full-height curved arc overlays with cascading 3-chevron light waves and animated delta pill (+10s, +20s, +30s...).
-- 🔥 **Dynamic Seeder Health Badges** — streams show real-time swarm health (🔥 50+ seeds emerald pill, ⚡ 10-49 seeds cyan pill).
+- 🔥 **Dynamic Seeder Swarm Badges** — streams show real-time swarm health (🔥 50+ seeds emerald pill, ⚡ 10-49 seeds cyan pill).
 - ✨ **Luminous 4K & Spec Badges** — sparkling 4K Ultra HD badges, Dolby Vision/HDR chips in vibrant amber, and Dolby Atmos in violet.
-- ⚡ **Instant Cached Debrid Badges** — guaranteed instant playback indicators with high-contrast emerald glow.
 
 ---
 
