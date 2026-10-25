@@ -23,23 +23,27 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.45)
+## 📥 Downloads (Latest Stable v1.2.48)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.45/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.45/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.45/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.48/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.48/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.48/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.45
+## 🆕 What's New in v1.2.48
 
-- 🎬 **Player Interface Modernization** — icon-first glass control dock, accent-glow play button, cinematic error card, live torrent telemetry on the loading screen.
-- 🔁 **Player Fixes** — torrent streams now switch properly from the in-player server list (with position carry-over), 8-second auto-next episode countdown, instant gateway session cleanup on switch.
-- 🧩 *(from v1.2.43)* Fully manual addons with a one-tap Recommended list; scrapers stay preset.
+- 🌓 **Dual-Edge Gesture HUDs** — MX Player style vertical brightness slider on the left edge and volume slider on the right edge under your thumbs.
+- ⏱️ **Intelligent "Ends At" Time** — Apple TV/Infuse style real-time calculation showing exact finish time (e.g. `1:15 PM • Ends 2:45 PM`) adjusted for playback speed, with tap-to-cycle clock modes.
+- 🌙 **Sleep Timer** — set timer for 15m, 30m, 45m, 60m, 90m, or End of Video with glowing countdown badge in top header.
+- 📷 **Native Frame Snapshot** — VLC hardware decoder snapshot with camera flash animation to save watermark-free frames.
+- 🔁 **Single Video Repeat Mode** — seamless loop toggle for music, guides, or clips.
+- ⛶ **2.35:1 Cinema Aspect Ratio** — expanded aspect ratio options with instant floating toast feedback.
+- ⏩ **Cumulative Double-Tap Seek** — dynamic seconds accumulation (+10s, +20s, +30s...) with sleek multi-chevron ripple badges.
 
 ---
 
