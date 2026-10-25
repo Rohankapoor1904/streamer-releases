@@ -23,27 +23,25 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.48)
+## 📥 Downloads (Latest Stable v1.2.49)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.48/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.48/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.48/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.49/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.49/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.49/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.48
+## 🆕 What's New in v1.2.49
 
-- 🌓 **Dual-Edge Gesture HUDs** — MX Player style vertical brightness slider on the left edge and volume slider on the right edge under your thumbs.
-- ⏱️ **Intelligent "Ends At" Time** — Apple TV/Infuse style real-time calculation showing exact finish time (e.g. `1:15 PM • Ends 2:45 PM`) adjusted for playback speed, with tap-to-cycle clock modes.
-- 🌙 **Sleep Timer** — set timer for 15m, 30m, 45m, 60m, 90m, or End of Video with glowing countdown badge in top header.
-- 📷 **Native Frame Snapshot** — VLC hardware decoder snapshot with camera flash animation to save watermark-free frames.
-- 🔁 **Single Video Repeat Mode** — seamless loop toggle for music, guides, or clips.
-- ⛶ **2.35:1 Cinema Aspect Ratio** — expanded aspect ratio options with instant floating toast feedback.
-- ⏩ **Cumulative Double-Tap Seek** — dynamic seconds accumulation (+10s, +20s, +30s...) with sleek multi-chevron ripple badges.
+- ⏩ **Kinetic 10-Second Transport Buttons** — center Rewind & Forward buttons feature mechanical spring bounce, micro-tilt rotation (-24° / +24°), and tactile haptics.
+- 🌊 **Curved Double-Tap Seek Wave** — YouTube/Netflix style full-height curved arc overlays with cascading 3-chevron light waves and animated delta pill (+10s, +20s, +30s...).
+- 🔥 **Dynamic Seeder Health Badges** — streams show real-time swarm health (🔥 50+ seeds emerald pill, ⚡ 10-49 seeds cyan pill).
+- ✨ **Luminous 4K & Spec Badges** — sparkling 4K Ultra HD badges, Dolby Vision/HDR chips in vibrant amber, and Dolby Atmos in violet.
+- ⚡ **Instant Cached Debrid Badges** — guaranteed instant playback indicators with high-contrast emerald glow.
 
 ---
 
