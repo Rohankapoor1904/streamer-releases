@@ -23,23 +23,23 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.43)
+## 📥 Downloads (Latest Stable v1.2.45)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.43/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.43/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.43/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.45/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.45/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.45/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.43
+## 🆕 What's New in v1.2.45
 
-- 🧩 **Fully Manual Addons** — no Stremio addon auto-installs anymore. Out of the box: the built-in Streamer aggregator + preset scraper providers only. Old preset addons are cleanly removed on update (your own additions are kept).
-- ⭐ **Recommended Addons** — one-tap install list on the Addons screen: MediaFusion, Comet, Peerflix & EasyNews. Add only what you want, whenever you want.
-- 🔁 *(from v1.2.42)* Auto stream resolution from top matched providers, alt-post retry, and readable language labels on every stream card.
+- 🎬 **Player Interface Modernization** — icon-first glass control dock, accent-glow play button, cinematic error card, live torrent telemetry on the loading screen.
+- 🔁 **Player Fixes** — torrent streams now switch properly from the in-player server list (with position carry-over), 8-second auto-next episode countdown, instant gateway session cleanup on switch.
+- 🧩 *(from v1.2.43)* Fully manual addons with a one-tap Recommended list; scrapers stay preset.
 
 ---
 
