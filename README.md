@@ -23,25 +23,23 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.42)
+## 📥 Downloads (Latest Stable v1.2.43)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.42/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.42/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.42/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.43/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.43/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.43/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.42
+## 🆕 What's New in v1.2.43
 
-- 🧩 **Curated Default Addons** — fresh installs ship with exactly MediaFusion, Comet, Peerflix & EasyNews (old preset clutter auto-cleaned on update; your own addons are kept).
-- ⚡ **Auto Stream Resolution** — streams start loading automatically from the top matched providers, no tapping needed.
-- 🔁 **Alt-Post Retry** — dead provider pages auto-fall-back to the next best matched post, dramatically fewer "No Streams Found" errors.
-- 🗣️ **Language Labels** — stream cards show readable audio languages (English • Hindi • Multi Audio…).
-- ✨ **UI Polish** — soft card entrance animations, snappier screen transitions, inline tap-to-retry states.
+- 🧩 **Fully Manual Addons** — no Stremio addon auto-installs anymore. Out of the box: the built-in Streamer aggregator + preset scraper providers only. Old preset addons are cleanly removed on update (your own additions are kept).
+- ⭐ **Recommended Addons** — one-tap install list on the Addons screen: MediaFusion, Comet, Peerflix & EasyNews. Add only what you want, whenever you want.
+- 🔁 *(from v1.2.42)* Auto stream resolution from top matched providers, alt-post retry, and readable language labels on every stream card.
 
 ---
 
