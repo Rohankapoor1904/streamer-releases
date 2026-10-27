@@ -23,26 +23,26 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.50)
+## 📥 Downloads (Latest Stable v1.2.51)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.50/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.50/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.50/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.51/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.51/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.51/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.50
+## 🆕 What's New in v1.2.51
 
-- 🛠️ **Scrubber Timeline Glitch Resolved** — fixed the distorted vertical box artifact appearing when dragging the player timestamp.
-- ⚡ **Instant Startup Audio/Video Sync** — eliminated artificial 2.8s showcase delay (MIN_OVERLAY_DISPLAY_MS=0) and streamlined fade out so media frames and voice begin simultaneously.
-- ⏩ **Kinetic 10-Second Transport Buttons** — mechanical spring bounce, micro-tilt rotation (-24° / +24°), and tactile haptics.
-- 🌊 **Curved Double-Tap Seek Wave** — YouTube/Netflix style full-height curved arc overlays with cascading 3-chevron light waves and animated delta pill (+10s, +20s, +30s...).
-- 🔥 **Dynamic Seeder Swarm Badges** — streams show real-time swarm health (🔥 50+ seeds emerald pill, ⚡ 10-49 seeds cyan pill).
-- ✨ **Luminous 4K & Spec Badges** — sparkling 4K Ultra HD badges, Dolby Vision/HDR chips in vibrant amber, and Dolby Atmos in violet.
+- 🎬 **Zero Playback Stutter** — eliminated the 5s periodic micro-freeze during video playback by pruning bloated episode metadata and suppressing background re-renders.
+- 🚀 **Fluid 60fps Scrolling** — stopped native animation driver overload on virtualized lists and memoized media cards.
+- ⚡ **Context Invalidation Shield** — isolated DiscoverScreen from background download tickers.
+- 🧩 **Memoized FlashList Headers** — eliminated unmounting and reconstruction of hero and category carousels on parent renders.
+- 🖼️ **GPU Memory Downsampling** — automatic downsampling for TMDB and Metahub images prevents memory spikes and decode delays.
+- 💾 **Smart Disk Logging & Cache Maintenance** — debounced disk logger and automatic cleanup for expired catalog caches.
 
 ---
 
