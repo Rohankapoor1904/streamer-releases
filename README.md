@@ -23,24 +23,23 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.52)
+## 📥 Downloads (Latest Stable v1.2.53)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.52/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.52/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.52/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.53/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.53/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.53/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.52
+## 🆕 What's New in v1.2.53
 
-- ⏳ **Restored Initial Loading Screen** — branded loading overlay displays for minimum 1,400ms until first video frames decode and playback position is restored.
-- ⏭️ **High-Precision Skip Intro** — dynamic end markers (90s anime / 85s series / addon timestamps) provide pinpoint seeking.
-- 🔁 **Rock-Solid Continue Watching Resumption** — resolved ID normalization issues, retained stream metadata while stripping heavy season/episode data, and enabled auto-refresh and failure recovery.
-- 🚀 **Zero Playback Stutter & 60fps UI** — smooth 60fps card browsing, suppressed background updates during active playback, and GPU texture optimization.
+- 📺 **Dynamic Quality Display & Provider Resolution Switcher** — player displays active resolution badge (1080p, 720p, etc.), lists all provider resolutions with sizes, and allows on-the-fly switching with position resume.
+- 🔊 **Audio & Video Frame Synchronization** — eliminated audio leading video during initial load; sound and picture start in perfect unison.
+- 🔁 **Continue Watching Resumption & Port 8888 Fix** — migrated legacy port 8888 to embedded gateway 3045, and added fallback stream refreshing on cold launch.
 
 ---
 
