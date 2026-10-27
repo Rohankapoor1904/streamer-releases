@@ -23,23 +23,23 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.53)
+## 📥 Downloads (Latest Stable v1.2.54)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.53/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.53/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.53/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.54/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.54/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.54/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.53
+## 🆕 What's New in v1.2.54
 
-- 📺 **Dynamic Quality Display & Provider Resolution Switcher** — player displays active resolution badge (1080p, 720p, etc.), lists all provider resolutions with sizes, and allows on-the-fly switching with position resume.
-- 🔊 **Audio & Video Frame Synchronization** — eliminated audio leading video during initial load; sound and picture start in perfect unison.
-- 🔁 **Continue Watching Resumption & Port 8888 Fix** — migrated legacy port 8888 to embedded gateway 3045, and added fallback stream refreshing on cold launch.
+- 🔊 **Audio Restored on Movie & Series Playback** — fixed audio muting regression caused by async state update lags; audio now plays immediately with full clarity.
+- 🔁 **Smooth Stream Resolution Switching** — fixed loading screen deadlock when changing resolution via the Quality menu; seamlessly switches and resumes.
+- 📺 **Dynamic Quality Display** — accurately displays selected stream resolution badge and provider streams.
 
 ---
 
