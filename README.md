@@ -23,26 +23,24 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.51)
+## 📥 Downloads (Latest Stable v1.2.52)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.51/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.51/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.51/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.52/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.52/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.52/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.51
+## 🆕 What's New in v1.2.52
 
-- 🎬 **Zero Playback Stutter** — eliminated the 5s periodic micro-freeze during video playback by pruning bloated episode metadata and suppressing background re-renders.
-- 🚀 **Fluid 60fps Scrolling** — stopped native animation driver overload on virtualized lists and memoized media cards.
-- ⚡ **Context Invalidation Shield** — isolated DiscoverScreen from background download tickers.
-- 🧩 **Memoized FlashList Headers** — eliminated unmounting and reconstruction of hero and category carousels on parent renders.
-- 🖼️ **GPU Memory Downsampling** — automatic downsampling for TMDB and Metahub images prevents memory spikes and decode delays.
-- 💾 **Smart Disk Logging & Cache Maintenance** — debounced disk logger and automatic cleanup for expired catalog caches.
+- ⏳ **Restored Initial Loading Screen** — branded loading overlay displays for minimum 1,400ms until first video frames decode and playback position is restored.
+- ⏭️ **High-Precision Skip Intro** — dynamic end markers (90s anime / 85s series / addon timestamps) provide pinpoint seeking.
+- 🔁 **Rock-Solid Continue Watching Resumption** — resolved ID normalization issues, retained stream metadata while stripping heavy season/episode data, and enabled auto-refresh and failure recovery.
+- 🚀 **Zero Playback Stutter & 60fps UI** — smooth 60fps card browsing, suppressed background updates during active playback, and GPU texture optimization.
 
 ---
 
