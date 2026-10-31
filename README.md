@@ -23,23 +23,25 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.54)
+## 📥 Downloads (Latest Stable v1.2.65)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.54/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.54/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.54/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.65/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.65/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.65/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.54
+## 🆕 What's New in v1.2.65
 
-- 🔊 **Audio Restored on Movie & Series Playback** — fixed audio muting regression caused by async state update lags; audio now plays immediately with full clarity.
-- 🔁 **Smooth Stream Resolution Switching** — fixed loading screen deadlock when changing resolution via the Quality menu; seamlessly switches and resumes.
-- 📺 **Dynamic Quality Display** — accurately displays selected stream resolution badge and provider streams.
+- 🍏 **Apple TV-Style Floating Scrubber Time Capsule** — Real-time floating obsidian glass capsule tracking the user’s thumb with relative seek delta (+45s / -30s) and track expansion.
+- 🎛️ **Curated Classic Bottom Dock** — Clean, ergonomic 6-to-8 button primary glass dock eliminating horizontal swipe fatigue; illuminated active dot for secondary modes.
+- ⚡ **Tactile Hero Transport Controls** — 76x76dp frosted obsidian disc with hairline border, soft accent glow, and tactile spring micro-physics with haptic feedback.
+- 📋 **Categorized Quick Settings Sheet** — Sectioned into Playback & Framing, Audio & Media, and System & Sources with native drag handle.
+- 🛡️ **PanResponder Safe Gesture Bounds** — Edge gestures exclude top and bottom bars, preventing accidental touch collisions while tapping buttons.
 
 ---
 
