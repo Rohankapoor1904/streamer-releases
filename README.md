@@ -23,25 +23,24 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.65)
+## 📥 Downloads (Latest Stable v1.2.66)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.65/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.65/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.65/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.66/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.66/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.66/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.65
+## 🆕 What's New in v1.2.66
 
-- 🍏 **Apple TV-Style Floating Scrubber Time Capsule** — Real-time floating obsidian glass capsule tracking the user’s thumb with relative seek delta (+45s / -30s) and track expansion.
-- 🎛️ **Curated Classic Bottom Dock** — Clean, ergonomic 6-to-8 button primary glass dock eliminating horizontal swipe fatigue; illuminated active dot for secondary modes.
-- ⚡ **Tactile Hero Transport Controls** — 76x76dp frosted obsidian disc with hairline border, soft accent glow, and tactile spring micro-physics with haptic feedback.
-- 📋 **Categorized Quick Settings Sheet** — Sectioned into Playback & Framing, Audio & Media, and System & Sources with native drag handle.
-- 🛡️ **PanResponder Safe Gesture Bounds** — Edge gestures exclude top and bottom bars, preventing accidental touch collisions while tapping buttons.
+- 📺 **Continue Watching Series Episode Resolution** — Resolved issue where launching a TV series from Continue Watching displayed blank episodes. All seasons and episodes are now loaded properly with active episode highlight.
+- 🧹 **Clean Initial Loading Screen** — Removed server pill underneath media title during initial buffer screen.
+- 🎛️ **Bottom Dock Curation** — Removed redundant Sources and Episodes buttons from the bottom row for a clean 6-button dock.
+- ⚡ **Pure Floating Center Transport Icons** — Removed circular background borders/discs and shadows from Play/Pause and Rewind/Forward 10s buttons to eliminate polygonal/hexagon visual artifacts.
 
 ---
 
