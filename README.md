@@ -23,24 +23,26 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.66)
+## 📥 Downloads (Latest Stable v1.2.92)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.66/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.66/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.66/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.92/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.92/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.92/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.66
+## 🆕 What's New in v1.2.92
 
-- 📺 **Continue Watching Series Episode Resolution** — Resolved issue where launching a TV series from Continue Watching displayed blank episodes. All seasons and episodes are now loaded properly with active episode highlight.
-- 🧹 **Clean Initial Loading Screen** — Removed server pill underneath media title during initial buffer screen.
-- 🎛️ **Bottom Dock Curation** — Removed redundant Sources and Episodes buttons from the bottom row for a clean 6-button dock.
-- ⚡ **Pure Floating Center Transport Icons** — Removed circular background borders/discs and shadows from Play/Pause and Rewind/Forward 10s buttons to eliminate polygonal/hexagon visual artifacts.
+- 🛡️ **Player Stability & Orientation Resizing Fix** — eliminated layout measurement crash when changing orientation or resizing controls.
+- 🔒 **Security Hardening** — stripped unneeded audio recording and system settings permissions; bound internal torrent streaming service to loopback interface.
+- ⚡ **Zero ReDoS Latency** — hardened regex evaluation in title extraction and media duration parsing.
+- 📡 **Glacierhosting In-App OTA Sync** — seamless background updates and update notifications.
+
+---
 
 ---
 
