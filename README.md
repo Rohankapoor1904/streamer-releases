@@ -23,24 +23,27 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.92)
+## 📥 Downloads (Latest Stable v1.2.93)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.92/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.92/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.92/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.93/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.93/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.93/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.92
+## 🆕 What's New in v1.2.93
 
-- 🛡️ **Player Stability & Orientation Resizing Fix** — eliminated layout measurement crash when changing orientation or resizing controls.
-- 🔒 **Security Hardening** — stripped unneeded audio recording and system settings permissions; bound internal torrent streaming service to loopback interface.
-- ⚡ **Zero ReDoS Latency** — hardened regex evaluation in title extraction and media duration parsing.
-- 📡 **Glacierhosting In-App OTA Sync** — seamless background updates and update notifications.
+- 🎨 **Button Visual Polish & Leading Dot Removal** — cleaned up chip/button dots across Discover, Library, Addons, and Details; smoothed continuous curvature on action buttons.
+- ⏩ **Fluid 10s Seek Animations** — spring-assisted 10s seek and smooth double-tap feedback with no flickering.
+- 📱 **OTA Update Modal Fix** — flexible multi-line text wrapping and expanded changelog viewport.
+- 🎬 **Coming Soon & Unreleased Titles** — clear "COMING SOON" indication and "Watch Trailer" action for upcoming titles.
+- 🌈 **Theme Color Glow** — enriched accent palettes with ambient gradients.
+
+---
 
 ---
 
