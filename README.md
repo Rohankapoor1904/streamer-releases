@@ -23,25 +23,26 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.3.00)
+## 📥 Downloads (Latest Stable v1.3.01)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.00/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.00/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.00/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.01/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.01/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.01/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.3.00
+## 🆕 What's New in v1.3.01
 
-- ⚡ **Provider Stream Rewind & Loop Fix** — eliminated the 2-second playback rewind and retry loop on scraper provider streams.
-- ⏱️ **Debounced Stream Auto-Recovery** — added 1.2s buffering recovery with feedback indicators so remote CDNs have time to buffer.
-- 🎯 **Normalized Initial Seek Logic** — fixed seek lockout conditions when resuming playback.
-- 📺 **Addon-First Fast Episode Switching** — sub-second addon episode switching with quality sorting.
-- 💾 **Download Storage & Playback** — local video playback and public Downloads indexing.
+- 🎬 **Player Episode Drawer Stream Resolution Fix** — fixed episode selection from drawer triggering 0 network requests; in-app resolver now runs eagerly.
+- 🔄 **Native VLC Player Remounting** — cleanly cycles LibVLC player and clears audio language URLs on episode switch.
+- 🛡️ **Black Screen Freeze Elimination** — graceful loading overlay dismissal and interactive recovery alert on stream resolution failure.
+- ⚡ **Pre-Warmed Torrent Discovery** — instant DHT and peer discovery kick-off before playback begins.
+
+---
 
 ---
 
