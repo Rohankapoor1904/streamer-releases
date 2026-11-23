@@ -23,23 +23,26 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.98)
+## 📥 Downloads (Latest Stable v1.2.99)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.98/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.98/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.98/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.99/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.99/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.99/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.98
+## 🆕 What's New in v1.2.99
 
-- 🎬 **Pure Imperative Seek (Reset-to-Start Fix)** — fixed forward/rewind 10s resetting to 0:00 by disconnecting JSX seek prop from native layer.
-- 🔄 **Zero Stale Re-render Seeks** — eliminated repeated playback loops caused by component re-renders.
-- ⚡ **Smooth Compound Feedback** — +10s, +20s, +30s feedback with single debounced execution.
+- ⚡ **Fast Addon-First Episode Switching** — switching episodes when streaming from Stremio addons now resolves sub-second without slow scraper delays.
+- 📺 **Season-Grouped Episode Drawer** — episodes are now organized strictly by season tab rather than showing all seasons together.
+- 🎯 **Clean Manual Selection** — hidden loading banner for manual episode drawer selections.
+- 💾 **Download Playback & Phone Storage Fix** — fixed downloaded video playback and ensured files save properly into public Downloads and phone storage.
+
+---
 
 ---
 
