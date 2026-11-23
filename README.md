@@ -23,24 +23,26 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.2.94)
+## 📥 Downloads (Latest Stable v1.2.95)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.94/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.94/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.94/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.95/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.95/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.2.95/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.2.94
+## 🆕 What's New in v1.2.95
 
-- 🛡️ **Torrent Stream Lifecycle Guard** — eliminated double-decrement race condition preserving active streams on seeks.
-- ⚡ **Serialized Watch Progress Queue** — atomic in-order progress persistence with lean 30-item history.
-- 🧹 **Memory & Resource Cleanup** — cleaned up provider search abort listeners and removed unused navigation dependencies.
-- 🚀 **High-Speed Direct OTA Downloads** — seamless updates powered by Glacierhosting edge CDN.
+- 🎬 **Video Player Seek Accumulation** — 10s forward/rewind button & double-tap now seamlessly compound (+10s, +20s, +30s) within 1000ms active window.
+- ⏱️ **Playback Stability & Watchdog** — eliminated sudden pauses during active video streaming, added automatic recovery on stream stall.
+- 🎨 **Enhanced UI & Themes** — new streaming accent colors (Neon Coral, Cyber Rose, Sunset Flame, Celestial Indigo) and 60 FPS smooth toggles.
+- 🚀 **High-Speed Direct OTA Downloads** — direct hosting on Singapore edge CDN for instantaneous updates.
+
+---
 
 ---
 
