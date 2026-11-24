@@ -23,24 +23,25 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.3.01)
+## 📥 Downloads (Latest Stable v1.3.02)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.01/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.01/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.01/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.02/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.02/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.02/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.3.01
+## 🆕 What's New in v1.3.02
 
-- 🎬 **Player Episode Drawer Stream Resolution Fix** — fixed episode selection from drawer triggering 0 network requests; in-app resolver now runs eagerly.
-- 🔄 **Native VLC Player Remounting** — cleanly cycles LibVLC player and clears audio language URLs on episode switch.
-- 🛡️ **Black Screen Freeze Elimination** — graceful loading overlay dismissal and interactive recovery alert on stream resolution failure.
-- ⚡ **Pre-Warmed Torrent Discovery** — instant DHT and peer discovery kick-off before playback begins.
+- ⏩ **Player Forward & Previous/Rewind 10s Engine** — fixed rewind snapback, added direction-aware seek arrival check, and reduced skip debounce delay to 280ms for instant responsiveness.
+- 🎨 **Cinematic Theme & Color System Refactor** — Electric Violet premier default accent, seamless floating bottom navigation bar, and luminous gold star ratings.
+- 🛡️ **Player Stability & Lifecycle Safeguards** — external subtitle URI key binding, portrait lock on unmount, and deep-link fallback exit.
+
+---
 
 ---
 
