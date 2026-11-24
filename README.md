@@ -23,23 +23,25 @@
 
 ---
 
-## 📥 Downloads (Latest Stable v1.3.02)
+## 📥 Downloads (Latest Stable v1.3.03)
 
 Choose the package that matches your device architecture:
 
 | Architecture | Recommended Devices | Download Link |
 |---|---|---|
-| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.02/app-arm64-v8a-release.apk) |
-| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.02/app-armeabi-v7a-release.apk) |
-| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.02/app-universal-release.apk) |
+| **ARM64-v8a (Recommended)** | Most modern Android devices (2016+) | [⬇️ Download ARM64 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.03/app-arm64-v8a-release.apk) |
+| **ARMeabi-v7a** | Older 32-bit smartphones and tablets | [⬇️ Download ARMv7 APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.03/app-armeabi-v7a-release.apk) |
+| **Universal (All-in-One)** | Works on all Android CPUs | [⬇️ Download Universal APK](https://github.com/Rohankapoor1904/streamer-releases/releases/download/v1.3.03/app-universal-release.apk) |
 
 ---
 
-## 🆕 What's New in v1.3.02
+## 🆕 What's New in v1.3.03
 
-- ⏩ **Player Forward & Previous/Rewind 10s Engine** — fixed rewind snapback, added direction-aware seek arrival check, and reduced skip debounce delay to 280ms for instant responsiveness.
-- 🎨 **Cinematic Theme & Color System Refactor** — Electric Violet premier default accent, seamless floating bottom navigation bar, and luminous gold star ratings.
-- 🛡️ **Player Stability & Lifecycle Safeguards** — external subtitle URI key binding, portrait lock on unmount, and deep-link fallback exit.
+- 🎭 **Top Actors & Filmography Modal** — added TMDB cast portraits, character roles, actor bios, and clickable filmography cards on details pages.
+- 🛡️ **Android OkHttp & ISP Block Resilience** — classified ISP sinkholes, DNS/TLS blocks, and connection resets as unavailable instead of noisy error logs.
+- 🎨 **Segmented Control & Stream List Polish** — improved tab control sizing, Discover spacing, FlashList wrapper layout, and keyboard tab-bar behavior.
+
+---
 
 ---
 
